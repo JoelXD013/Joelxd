@@ -16,5 +16,6 @@ public class factorial {
 		Scanner input = new Scanner (System.in);
 		int factorial = input.nextInt();
 		System.out.println (problem(factorial));
+		input.close(); //Make sure you close to prevent resource leak.
 }
 }

@@ -56,7 +56,8 @@ public class Math1 {
 		System.out.println();
 		
 		int i = 0;
-		i++; //increments i
+		i++; //increments i after the variable is used
+		++i; //increments i before the variable is used
 		System.out.println("i = " + i);
 		
 		i--; //decrements i
