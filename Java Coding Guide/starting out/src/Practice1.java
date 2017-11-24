@@ -18,13 +18,13 @@ public class Practice1 {
 		bass = 29;
 		catfish = 53;
 		
-		 if (bass > 30 || catfish > 50) {
+		if (bass > 30 || catfish > 50) {
 			 System.out.println("Allow fishing");
-		 }
-		 else {
-			 System.out.println("Do not allow fishing");
-		 }
-		 int count = 2;
+		}
+		else {
+			System.out.println("Do not allow fishing");
+		}
+		int count = 2;
 		while (count < 13) {
 			System.out.println(count);
 			count++;
