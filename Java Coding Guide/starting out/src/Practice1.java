@@ -24,6 +24,13 @@ public class Practice1 {
 		 else {
 			 System.out.println("Do not allow fishing");
 		 }
+		 int count = 2;
+		while (count < 13) {
+			System.out.println(count);
+			count++;
+			
+		}
+	
 	}
 }
 
