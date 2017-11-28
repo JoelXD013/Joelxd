@@ -16,7 +16,16 @@ public class Arrays_Practice {
 		ex++;
 		
 		}
-
+		System.out.println();
+		for (ex = 0; ex<3; ex++) {
+		System.out.println(ar4[ex]);
+			
+		}
+		System.out.println();
+		for (int el: ar) {
+			System.out.println(el); //can print out array
+			
+		}
 	}
 
 }
