@@ -6,14 +6,23 @@ public class Practice2 {
 		//ob.mess();
 
 		Scanner input = new Scanner(System.in);
-		Practice_Multi_Class myName = new Practice_Multi_Class (); //myName can now pull from multi class
+		//Practice_Multi_Class myName = new Practice_Multi_Class (); //myName can now pull from multi class
 		
 		
-		System.out.println("Enter your name");
-		String name = input.nextLine();
+		//System.out.println("Enter your name");
+		//String name = input.nextLine();
+		
+		
+		//myName.sim(name);
+		
+		//System.out.println();
+		
+		Practice_Multi_Class theName = new Practice_Multi_Class ();
+		System.out.println("Enter the name: ");
+		String temp = input.nextLine();
+		theName.setName(temp);
+		theName.say();
 		input.close();
-		
-		myName.sim(name);
 	}
 
 }
