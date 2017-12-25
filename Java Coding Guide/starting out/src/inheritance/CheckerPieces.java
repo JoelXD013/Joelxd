@@ -4,7 +4,7 @@ public class CheckerPieces {
 	
 	//Private means that the variable can only be manipulated and accessed
 	//by using public functions.
-	private char sym;
+	private  char sym;
 	private boolean king;
 	
 	public void setSym(char c) {
